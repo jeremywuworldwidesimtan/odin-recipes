@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+a {
+    background-color: slateblue;
+    color: azure;
+}
+
+#menu {
+    background-color: blueviolet;
+    color: white;
+}
+
+#menu a {
+    background-color: transparent;
+    color: azure;
+}
+
+#desc {
+    background-color: cadetblue;
+}
+
+#ingredients {
+    background-color: aquamarine;
+}
+
+#steps {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#ref {
+    background-color: darkcyan;
+    color: white;
+}
+
+.optional {
+    background-color: #333;
+    color: white;
+}
+
+.steps-subhdr {
+    background-color: violet;
+}
+
+.ret {
+    background-color: antiquewhite;
+}
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    background-color: #fff;
+    color: steelblue;
+}
