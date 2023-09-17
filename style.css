@@ -1,11 +1,10 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
-    color: blue;
+    font-size: 3rem;
 }
 
 img {
@@ -13,36 +12,50 @@ img {
     height: auto;
 }
 
-a {
-    background-color: slateblue;
-    color: azure;
+a, a:visited {
+    background-color: #023E8A;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #menu {
-    background-color: blueviolet;
+    background-color: #0077B6;
     color: white;
+    padding: 1rem;
+    width: 70%;
 }
 
 #menu a {
     background-color: transparent;
-    color: azure;
+    color: white;
+    border-left: 1rem solid #023E8A;
+    padding-left: 0.25rem;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 #desc {
-    background-color: cadetblue;
+    background-color: #0096C7;
 }
 
 #ingredients {
-    background-color: aquamarine;
+    background-color: #00B4D8;
 }
 
 #steps {
-    background-color: cornflowerblue;
+    background-color: #0077B6;
     color: white;
 }
 
 #ref {
-    background-color: darkcyan;
+    background-color: #023E8A;
     color: white;
 }
 
@@ -52,7 +65,7 @@ a {
 }
 
 .steps-subhdr {
-    background-color: violet;
+    background-color: #0096C7;
 }
 
 .ret {
@@ -62,6 +75,16 @@ a {
 .header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
-    background-color: #fff;
-    color: steelblue;
+    margin: 0;
+    color: #fff;
+}
+
+.or-logo {
+    font-family: 'Courier New', Courier, monospace;
+    color: #03045E;
+    font-weight: bold;
+}
+
+.or-logo::after {
+    content: "_";
 }
